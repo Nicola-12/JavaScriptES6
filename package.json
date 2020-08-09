@@ -8,11 +8,13 @@
   "browserslist": "last 1 chrome version",
   "dependencies": {
     "@babel/cli": "^7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
     "@babel/preset-env": "^7.11.0"
   },
-    "scripts": {
-      "dev": "babel ./ES6/main.js -o ./ES6/bundle.js -w"
-    }
-        
-    
+  "scripts": {
+    "dev": "babel ./ES6/main.js -o ./ES6/bundle.js -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1"
+  }
 }
