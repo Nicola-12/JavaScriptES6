@@ -12,7 +12,12 @@
     "@babel/preset-env": "^7.11.0"
   },
   "scripts": {
-    "dev": "babel ./ES6/main.js -o ./ES6/bundle.js -w"
+    "dev": "babel ./ES6/main.js -o ./ES6/bundle.js -w",
+    "dev1": "babel ./ES6.Exercicios/exer1.js -o ./ES6/bundle.js -w",
+    "dev2": "babel ./ES6.Exercicios/exer2.js -o ./ES6/bundle.js -w",
+    "dev3": "babel ./ES6.Exercicios/exer3.js -o ./ES6/bundle.js -w",
+    "dev4": "babel ./ES6.Exercicios/exer4.js -o ./ES6/bundle.js -w",
+    "dev5": "babel ./ES6.Exercicios/exer5.js -o ./ES6/bundle.js -w"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1"

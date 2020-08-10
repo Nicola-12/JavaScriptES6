@@ -83,6 +83,7 @@
 // console.log(soma());
 // console.log(soma(2,5));
 
+// Desestruturação
 // const usuario = {
 //     nome: 'Nicolas',
 //     idade: 19,
@@ -137,10 +138,9 @@
 //     oi() { console.log(`ola ${this.nomeCompleto}`) },
 //     set coisa(i) {console.log(i)}
 //   }
-// Template Literals
+//// Template Literals
 // const nome = 'Nicolas', idade = 19
 // console.log(`Meu nome é ${nome} e tenho ${idade} anos.`);
-
 //// Object Short Sintax
 // const nome = 'Nicolas', idade = 19
 // const arr = {
