@@ -6,20 +6,27 @@
   "author": "Nicola-12 <nicolasendrizzi@gmail.com>",
   "license": "MIT",
   "browserslist": "last 1 chrome version",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-object-rest-spread": "^7.11.0",
-    "@babel/preset-env": "^7.11.0"
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
-    "dev": "babel ./ES6/main.js -o ./ES6/bundle.js -w",
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
     "dev1": "babel ./ES6.Exercicios/exer1.js -o ./ES6/bundle.js -w",
     "dev2": "babel ./ES6.Exercicios/exer2.js -o ./ES6/bundle.js -w",
     "dev3": "babel ./ES6.Exercicios/exer3.js -o ./ES6/bundle.js -w",
     "dev4": "babel ./ES6.Exercicios/exer4.js -o ./ES6/bundle.js -w",
     "dev5": "babel ./ES6.Exercicios/exer5.js -o ./ES6/bundle.js -w"
   },
-  "devDependencies": {
-    "@babel/core": "^7.11.1"
+  "dependencies": {
+    "-": "^0.0.1",
+    "D": "^1.0.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }

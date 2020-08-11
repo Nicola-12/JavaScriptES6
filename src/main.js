@@ -149,3 +149,15 @@
 //     cidade: 'Roca Sales'
 // }
 // console.log(arr);
+
+// WEBPACK, IMPORT && EXPORT
+
+// import * as funcoes from '../funcoes';
+// import {mul as mulFunction} from '../funcoes'
+// console.log(funcoes.default(1,4));
+// console.log(funcoes.sub(19,5));
+// console.log(mulFunction(19,5))
+
+// import classeUsuario, {idade as idadeUsuario} from './functions'
+// classeUsuario.info();
+// console.log(idadeUsuario);
